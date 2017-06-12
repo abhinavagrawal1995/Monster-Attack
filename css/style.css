@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+#game-container {
+  position:fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    text-align:center;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+    background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');
+
+}
+
+#question-overlay {
+    border-radius: 40px;
+    background: rgba(97, 94, 140, 0.14);
+    z-index: 1002;
+    overflow: auto;
+    width: 650px;
+    background-size: 650px 350px;
+    background-repeat: no-repeat;
+    padding-bottom: 26px;
+    margin: auto auto;
+}
+
+#question{
+    font-family: 'Indie Flower', cursive;
+    height: 15%;
+    width: 100%;
+    margin-left: auto;
+    margin-top: 10%;
+    font-size: 25px;
+    color:#fff;
+}
+
+#clock {
+    position:relative;
+    margin: auto;
+    z-index: 100;
+    background-image:url('../images/clock.png');
+    height: 131px;
+    width: 134px;
+}
+
+#answer-controls {
+    margin-top:10%;
+
+}
+
+#monsters{
+    width: 800px;
+    height: 270px;
+    margin: auto auto;
+}
+#mon1 {
+    background-image: url(../images/monster1.gif);
+    width: 30%;
+    height: 100%;
+    float:left;
+    margin-left : 3%;
+}
+#mon2{
+    background-image: url(../images/monster1.gif);
+    width: 30%;
+    height: 100%;
+    margin-left : 3%;
+    float:left;
+}
+#mon3 {
+    background-image: url(../images/monster1.gif);
+    width: 30%;
+    height: 100%;
+    margin-left : 3%;
+    float:left;
+}
+
+.player {
+  height: 400px;
+    margin: 0 auto;
+  width: calc(100% - 50px);
+    text-align:center;
+}
+.player div{
+    position:relative;
+    display:inline-block;
+
+}
+
+.aladdin{
+    position:relative;
+    top:0px;
+}
+.aladdin img{
+    height:300px;
+    width:200px;
+}
+.main-header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 6rem;
+  color: white;
+  background: rgba(234, 231, 231, 0.29);
+  line-height: 6rem;
+  transform: translateY(0);
+  transform: translate3d(0,0,0);
+  transition: .25s transform;
+  backface-visibility: hidden;
+}
+
+.main-header h1 {
+  line-height: 3.7;
+  float: left;
+  font-size: 1.4rem;
+  margin: 0 0 0 2rem;
+  text-transform: uppercase;
+}
+
+.main-header nav {
+  float: right;
+  font-size: 1.4rem;
+}
+
+.main-header nav ul { 
+  margin: 0; 
+  padding: 0; 
+}
+
+.main-header nav li {
+  display: inline-block;
+  padding: 0 2rem;
+  border-left: .1rem solid #555;
+}
+
+/*
+.carpet{
+    position:realtiv
+}
+.carpet img{
+    width:300px;
+    height:30px;
+}
+*/
+
+
+
+
+
+
+
+input[type="text"],
+textarea,
+select {
+  height: 38px;
+    width: 60%;
+    padding: 6px 10px;
+    background-color: rgba(189, 178, 151, 0.53);
+    border: 1px solid #D1D1D1;
+    border-radius: 40px;
+    box-shadow: none;
+    box-sizing: border-box;
+     }
+
+  .button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: rgba(206, 201, 189, 0.53);
+    border-radius: 40px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box; }
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0; }
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #33C3F0;
+  border-color: #33C3F0; }
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #1EAEDB;
+  border-color: #1EAEDB; }
+
