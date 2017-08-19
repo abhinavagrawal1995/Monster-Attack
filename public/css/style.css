@@ -2,10 +2,6 @@
 
 #game-container {
   position:fixed;
-    padding:0;
-    margin:0;
-    top:0;
-    left:0;
     text-align:center;
     width: 100%;
     height: 100%;
@@ -21,13 +17,12 @@
 #question-overlay {
     border-radius: 40px;
     background: rgba(97, 94, 140, 0.14);
-    z-index: 1002;
     overflow: auto;
-    width: 650px;
-    background-size: 650px 350px;
+    width: 50em;
+    /*background-size: 650px 350px;*/
     background-repeat: no-repeat;
     padding-bottom: 26px;
-    margin: auto auto;
+    margin: 32px auto auto;
 }
 
 #question{

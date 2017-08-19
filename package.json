@@ -1,0 +1,28 @@
+{
+  "name": "monsterattack",
+  "version": "1.0.0",
+  "description": "A game where you need to save the monsters for once.",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhinavagrawal1995/game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhinavagrawal1995/game/issues"
+  },
+  "homepage": "https://github.com/abhinavagrawal1995/game#readme",
+  "dependencies": {
+    "express": "~4.15.2",
+    "express-session": "~1.11.3",
+    "socket.io": "~1.7.3",
+    "string-similarity": "~1.2.0"
+  }
+}
